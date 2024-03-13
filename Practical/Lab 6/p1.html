@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS-Link Properties</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            background-color: rgb(234, 226, 226);
+        }
+
+        .lobster-regular {
+            font-family: "Lobster", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            text-align: center;
+        }
+
+        .link {
+            text-align: center;
+        }
+
+        .link a {
+            text-decoration: none;
+        }
+
+
+        .link a:visited {
+            background-color: red;
+        }
+
+        .link a:link {
+            color: white;
+            background-color: antiquewhite;
+            font-size: 20px;
+        }
+
+        .link a:hover {
+            /* text-decoration: underline; */
+            background-color: rgb(126, 117, 255);
+        }
+
+        a:link,
+        a:visited {
+            background-color: white;
+            color: black;
+            border: 4px solid rgb(126, 117, 255);
+            border-radius: 0.8rem;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active {
+            background-color: blue;
+            color: white;
+        }
+
+        h2 {
+            margin-top: 8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lobster-regular">
+        <h1>This is an example of Google Fonts</h1>
+    </div>
+    <div class="link">
+        <a href="https://youtube.com" target="_blank">CSS-Link Property</a>
+    </div>
+
+    <h2>Example of Link Button is below</h2>
+    <a href="https://youtube.com" target="_blank">Link Button for YouTube</a>
+</body>
+
+</html>

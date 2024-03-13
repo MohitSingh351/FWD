@@ -1,0 +1,74 @@
+.div1 {
+    background-color: red;
+    width: 80%;
+    height: 3rem;
+}
+
+.div2 {
+    margin-top: 3rem;
+    height: 20rem;
+    color: black;
+    text-shadow: 1px 1px;
+    background-repeat: repeat;
+    background-image: url("../images/Laptop.jpg");
+}
+
+.div3 {
+    margin-top: 3rem;
+    color: blue;
+}
+
+.div4 {
+    margin-top: 3rem;
+    width: 20rem;
+    height: 20rem;
+    background-image: url("../images/coffee.avif");
+    background-size: contain;
+}
+
+.div5 {
+    margin-top: 3rem;
+    width: 100%;
+    height: 20rem;
+    background-image: url("../images/coffee.avif");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.div6 {
+    margin-top: 3rem;
+    color: rgba(0, 0, 230, 10);
+}
+
+.div7 {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.div8 {
+    margin-top: 3rem;
+    direction: rtl;
+    letter-spacing: 2px;
+}
+
+.div9 {
+    margin-top: 3rem;
+    word-spacing: 8px;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    line-height: 40px;
+}
+
+.div10 {
+    margin-top: 3rem;
+    line-height: 30px;
+    text-shadow: 1px 1px;
+}
+
+.div11 {
+    margin-top: 3rem;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+
